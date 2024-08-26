@@ -28,9 +28,9 @@ const ProductDetails = () => {
       <div className="mt-12 flex flex-col gap-3 max-w-[40vw] md:mt-14">
         <p>Rating: {data.rating.rate}/5</p>
         <h3 className="font-bold text-2xl">{data.title}</h3>
-        <p className=" text-2xl">${data.price}</p>
-        <p className=" text-2xl">Category: {data.category}</p>
-        <p className=" text-base">{data.description}</p>
+        <p className="text-2xl">${data.price}</p>
+        <p className="text-2xl">Category: {data.category}</p>
+        <p className="text-base">{data.description}</p>
       </div>
     </div>
   );
